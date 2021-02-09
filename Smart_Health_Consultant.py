@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 from flask import request
-with open('Random_Forest.pickle','rb') as f:
+with open('Random_Forest.pkl','rb') as f:
     clf = pickle.load(f)
 
 
