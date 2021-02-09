@@ -29,6 +29,19 @@ def main():
     'palpitations','painful_walking','pus_filled_pimples','blackheads','scurring','skin_peeling',
     'silver_like_dusting','small_dents_in_nails','inflammatory_nails','blister','red_sore_around_nose',
     'yellow_crust_ooze']
+    
+     disease=['Fungal infection', 'Allergy', 'GERD', 'Chronic cholestasis',
+       'Drug Reaction', 'Peptic ulcer diseae', 'AIDS', 'Diabetes ',
+       'Gastroenteritis', 'Bronchial Asthma', 'Hypertension ', 'Migraine',
+       'Cervical spondylosis', 'Paralysis (brain hemorrhage)', 'Jaundice',
+       'Malaria', 'Chicken pox', 'Dengue', 'Typhoid', 'hepatitis A',
+       'Hepatitis B', 'Hepatitis C', 'Hepatitis D', 'Hepatitis E',
+       'Alcoholic hepatitis', 'Tuberculosis', 'Common Cold', 'Pneumonia',
+       'Dimorphic hemmorhoids(piles)', 'Heart attack', 'Varicose veins',
+       'Hypothyroidism', 'Hyperthyroidism', 'Hypoglycemia',
+       'Osteoarthristis', 'Arthritis',
+       '(vertigo) Paroymsal  Positional Vertigo', 'Acne',
+       'Urinary tract infection', 'Psoriasis', 'Impetigo']
 
         
     Symptom1 = st.selectbox('Select Symptom 1',Symptoms)
@@ -49,6 +62,8 @@ def main():
     Symptom13 = st.selectbox('Select Symptom 13',Symptoms)
     Symptom14 = st.selectbox('Select Symptom 14',Symptoms)
     Symptom15 = st.selectbox('Select Symptom 15',Symptoms)
+    
+    disease1 = st.selectbox('Select Disease',disease)
 
 
    
