@@ -16,7 +16,7 @@ def main():
     'fast_heart_rate','pain_during_bowel_movements','pain_in_anal_region','bloody_stool','fatigue','nausea',
     'irritation_in_anus','neck_pain','dizziness','cramps','bruising','obesity','swollen_legs','anxiety','high_fever',
     'swollen_blood_vessels','puffy_face_and_eyes','enlarged_thyroid','brittle_nails','spotting_ urination','dehydration',
-    'swollen_extremeties','excessive_hunger','extra_marital_contacts','drying_and_tingling_lips','restlessness',
+    'swollen_extremeties','excessive_hunger','extra_marital_contacts','drying_and_tingling_lips','restlessness','itching',
     'slurred_speech','knee_pain','hip_joint_pain','muscle_weakness','stiff_neck','swelling_joints','sweating','indigestion',
     'movement_stiffness','spinning_movements','loss_of_balance','unsteadiness','joint_pain','ulcers_on_tongue','loss_of_appetite',
     'weakness_of_one_body_side','loss_of_smell','bladder_discomfort','foul_smell_of urine','acidity','burning_micturition',
