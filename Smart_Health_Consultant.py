@@ -62,7 +62,20 @@ def main():
     Symptom13 = st.selectbox('Select Symptom 13',Symptoms)
     Symptom14 = st.selectbox('Select Symptom 14',Symptoms)
     Symptom15 = st.selectbox('Select Symptom 15',Symptoms)
+    
+    Symptom16 = st.selectbox('Select Symptom 16',Symptoms)
 
+    Symptom17 = st.selectbox('Select Symptom 17',Symptoms)
+    Symptom18 = st.selectbox('Select Symptom 18',Symptoms)
+    Symptom19 = st.selectbox('Select Symptom 19',Symptoms)
+    Symptom20 = st.selectbox('Select Symptom 20',Symptoms)
+    Symptom21 = st.selectbox('Select Symptom 21',Symptoms)
+
+    Symptom22 = st.selectbox('Select Symptom 22',Symptoms)
+    Symptom23 = st.selectbox('Select Symptom 23',Symptoms)
+    Symptom24 = st.selectbox('Select Symptom 24',Symptoms)
+    Symptom25 = st.selectbox('Select Symptom 25',Symptoms)
+    
 
    
 
@@ -74,7 +87,7 @@ def main():
 
         l2.append(0)
 
-    psymptoms = [Symptom1,Symptom2,Symptom3,Symptom4,Symptom5,Symptom6,Symptom7,Symptom8,Symptom9,Symptom10,Symptom11,Symptom12,Symptom13,Symptom14,Symptom15]
+    psymptoms = [Symptom1,Symptom2,Symptom3,Symptom4,Symptom5,Symptom6,Symptom7,Symptom8,Symptom9,Symptom10,Symptom11,Symptom12,Symptom13,Symptom14,Symptom15,Symptom16,Symptom17,Symptom18,Symptom19,Symptom20,Symptom21,Symptom22,Symptom23,Symptom24,Symptom25]
     for k in range(0,len(Symptoms)):
             for z in psymptoms:
                 if(z==Symptoms[k]):
