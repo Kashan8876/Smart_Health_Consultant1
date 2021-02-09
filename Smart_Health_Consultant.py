@@ -6,6 +6,7 @@ with open('Random_Forest.pickle','rb') as f:
 
 
 
+
 def main():
     st.title('Smart Health Consultant')
     Symptoms = ['Select Symptom','back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
@@ -28,9 +29,8 @@ def main():
     'palpitations','painful_walking','pus_filled_pimples','blackheads','scurring','skin_peeling',
     'silver_like_dusting','small_dents_in_nails','inflammatory_nails','blister','red_sore_around_nose',
     'yellow_crust_ooze']
-        
 
-    
+        
     Symptom1 = st.selectbox('Select Symptom 1',Symptoms)
 
     Symptom2 = st.selectbox('Select Symptom 2',Symptoms)
@@ -49,10 +49,12 @@ def main():
     Symptom13 = st.selectbox('Select Symptom 13',Symptoms)
     Symptom14 = st.selectbox('Select Symptom 14',Symptoms)
     Symptom15 = st.selectbox('Select Symptom 15',Symptoms)
-    
-    
 
- 
+
+   
+
+
+
     l2=[]
     for i in range(0,len(Symptoms)):
 
